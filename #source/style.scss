@@ -1,0 +1,41 @@
+// # sourceMappingURL=filename.css.map
+@import "header";
+
+$true-blue: blue;
+$fz: 70px;
+$true-red: red;
+
+%test {
+  color: rgb(151, 115, 115);
+  padding: 20px;
+}
+
+@mixin ten($fz, $true-red) {
+  font-size: $fz;  
+  color: $true-red;
+}
+
+body {
+  width: 600px;  
+  background-color: yellowgreen;
+}
+section { 
+
+  width: 100%;
+  background-color: rgb(177, 155, 155);
+  h1 {
+    font-size: $fz;  
+  }
+  & p {
+    @include ten($fz, white);
+    // color: $true-blue;
+    @extend %test; 
+    background-color: brown;
+    width: 300 / 960 * 100%;   
+    
+  }
+ 
+}
+
+
+

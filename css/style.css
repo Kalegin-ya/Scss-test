@@ -1,0 +1,27 @@
+html {
+  background: #cfcaca;
+}
+
+section p {
+  color: rgb(151, 115, 115);
+  padding: 20px;
+}
+
+body {
+  width: 600px;
+  background-color: yellowgreen;
+}
+
+section {
+  width: 100%;
+  background-color: rgb(177, 155, 155);
+}
+section h1 {
+  font-size: 70px;
+}
+section p {
+  font-size: 70px;
+  color: white;
+  background-color: brown;
+  width: 31.25%;
+}/*# sourceMappingURL=style.css.map */
